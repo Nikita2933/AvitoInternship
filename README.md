@@ -19,4 +19,4 @@
 + заюзать UICollectionView
 + ~~VIPER~~
 
-![Пример](image1.jpg)
+![Пример](Image1.jpg)
