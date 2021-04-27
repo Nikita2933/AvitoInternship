@@ -18,3 +18,5 @@
 + не использовать Storyboard
 + заюзать UICollectionView
 + ~~VIPER~~
+
+![Пример](image1.jpg)
