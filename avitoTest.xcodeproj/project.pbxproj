@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11505D222637475400827543 /* Image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 11505D212637475400827543 /* Image1.jpg */; };
 		115BA65026354D0900C6345B /* LoadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115BA64F26354D0900C6345B /* LoadImage.swift */; };
 		115BA65B26354E3100C6345B /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115BA65A26354E3100C6345B /* Alert.swift */; };
 		11C625C726136B3E003B7466 /* AvitoJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C625C626136B3E003B7466 /* AvitoJson.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11505D212637475400827543 /* Image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Image1.jpg; sourceTree = "<group>"; };
 		115BA64F26354D0900C6345B /* LoadImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadImage.swift; sourceTree = "<group>"; };
 		115BA65A26354E3100C6345B /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		11C625C626136B3E003B7466 /* AvitoJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvitoJson.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		11F9E15526122DFF00493241 = {
 			isa = PBXGroup;
 			children = (
+				11505D212637475400827543 /* Image1.jpg */,
 				11F9E16026122DFF00493241 /* avitoTest */,
 				11F9E15F26122DFF00493241 /* Products */,
 			);
@@ -253,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11F9E16E26122E0000493241 /* LaunchScreen.storyboard in Resources */,
+				11505D222637475400827543 /* Image1.jpg in Resources */,
 				11C625CC26137AF1003B7466 /* result.json in Resources */,
 				11F9E16B26122E0000493241 /* Assets.xcassets in Resources */,
 			);
@@ -462,7 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Nikita.avitoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -481,7 +485,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = Nikita.avitoTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
